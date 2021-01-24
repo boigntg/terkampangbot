@@ -245,7 +245,7 @@ def help_button(bot: Bot, update: Update):
 
 
 @run_async
-def get_help(Update, context):
+def get_help(bot: Bot, update: Update):
     chat = update.effective_chat  # type: Optional[Chat]
     args = update.effective_message.text.split(None, 1)
 
