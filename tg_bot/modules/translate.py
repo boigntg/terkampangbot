@@ -28,6 +28,6 @@ def do_translate(bot: Bot, update: Update, args: List[str]):
 
 __help__ = """- /trn - as reply to a long message
 """
-__mod_name__ = "Google Translate"
+__mod_name__ = "Penerjemah"
 
 dispatcher.add_handler(DisableAbleCommandHandler("trn", do_translate, pass_args=True))
