@@ -250,34 +250,32 @@ def __stats__():
     return "{} chats have links set.".format(sql.num_chats())
 
 def __chat_settings__(chat_id, user_id):
-    return "You are *admin*: `{}`".format(
+    return "Kamu adalah *admin*: `{}`".format(
         dispatcher.bot.get_chat_member(chat_id, user_id).status in ("administrator", "creator"))
 
 
 __help__ = """
-Lazy to promote or demote someone for admins? Want to see basic information about chat? \
-All stuff about chatroom such as admin lists, pinning or grabbing an invite link can be \
-done easily using the bot.
+Malas mempromosikan atau menurunkan seseorang sebagai admin? Ingin melihat informasi dasar tentang obrolan? Semua hal tentang ruang obrolan seperti daftar admin, menyematkan atau mengambil tautan undangan dapat dilakukan dengan mudah menggunakan bot.
 
- - /adminlist: list of admins and members in the chat
- - /staff: same as /adminlist
- - /link: get the group link for this chat.
- - #link: same as /link
+  - / adminlist: daftar admin dan anggota chat
+  - / staff: sama dengan / adminlist
+  - / link: dapatkan tautan grup untuk obrolan ini.
+  - #link: sama dengan / link
 
-*Admin only:*
- - /pin: silently pins the message replied to - add 'loud' or 'notify' to give notifies to users.
- - /unpin: unpins the currently pinned message.
- - /invitelink: generates new invite link.
- - /setlink <your group link here>: set the group link for this chat.
- - /clearlink: clear the group link for this chat.
- - /promote: promotes the user replied to
- - /demote: demotes the user replied to
+Admin saja:
+  - / pin: diam-diam menyematkan pesan yang dibalas - tambahkan 'nyaring' atau 'beri tahu' untuk memberi tahu pengguna.
+  - / unpin: melepas pesan yang disematkan saat ini.
+  - / invitelink: menghasilkan tautan undangan baru.
+  - / setlink <tautan grup Anda di sini>: setel tautan grup untuk obrolan ini.
+  - / clearlink: hapus tautan grup untuk obrolan ini.
+  - / promosikan: mempromosikan balasan pengguna
+  - / demote: menurunkan jawaban pengguna
  
- An example of set a link:
-`/setlink https://t.me/joinchat/HwiIk1RADK5gRMr9FBdOrwtae`
+  Contoh set link:
+/setlink https://t.me/joinchat/HwiIk1RADK5gRMr9FBdOrwtae
 
-An example of promoting someone to admins:
-`/promote @username`; this promotes a user to admins.
+Contoh mempromosikan seseorang menjadi admin:
+/promosikan @namapengguna; ini mempromosikan pengguna menjadi admin.
 """
 
 __mod_name__ = "Admin"
