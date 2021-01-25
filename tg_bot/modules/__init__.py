@@ -9,7 +9,7 @@ def __list_all_modules():
     all_modules = [basename(f)[:-3] for f in mod_paths if isfile(f)
                    and f.endswith(".py")
                    and not f.endswith('__init__.py')]
-
+    
     if LOAD or NO_LOAD:
         to_load = LOAD
         if to_load:
