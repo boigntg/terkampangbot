@@ -27,7 +27,7 @@ Saya bukan manusia tapi juga bisa sange, gausah kirim pap tt tolol!!
 ━─━─━─━─━─━─━─━─━─━─━
 
 ▪**Managed with by:** [KOALA](https://t.me/mixiologist)
-▪**JOIN GRUP:** [Blogu](http://pramukapitumpanua.blogspot.com/)
+▪**JOIN GRUP:** [LORD USERBOT](http://t.me/LordUserbot_Group)
 ━─━─━─━─━─━─━─━─━─━─━
 Tekan /help untuk melihat daftar fitur saya..
 
@@ -156,9 +156,9 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="💡 Add saya ke group", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="🤖 Profil Asta", url="https://blackclover.fandom.com/id/wiki/Asta")],
-                     [InlineKeyboardButton(text="👥 Group chat", url="https://t.me/GroupCariTemanChat"), InlineKeyboardButton(text="🔔 Channel memes", url="https://t.me/MemesRpi")],
-                     [InlineKeyboardButton(text="🎬 Anime News", url="https://t.me/AnimesNewsIndo"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
+                    [[InlineKeyboardButton(text="💡 Add saya ke group", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="🤖 Lord Userbot", url="https://t.me/LordUserbot_Group")],
+                     [InlineKeyboardButton(text="👥 Group chat", url="https://t.me/caritemanhidop"), InlineKeyboardButton(text="🐨 Koala", url="https://t.me/mixiologist")],
+                     [InlineKeyboardButton(text="🌐 Channel Official", url="https://t.me/caritemanhidupofficial"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
 
     else:
         update.effective_message.reply_text("Hai ada yang bisa saya bantu...")
