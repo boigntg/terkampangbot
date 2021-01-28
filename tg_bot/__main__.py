@@ -20,15 +20,14 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 
 Hi {}, nama saya {}! 
-Saya adalah bot management group. 
-ada untuk membantai warga tele sange.
-Dibuat khusus untuk membuat group anda tetap nyaman dan aman terkendali.
-Saya bukan manusia yang bisa puasin nafsumu, jangan salah gunakan!!
+Saya adalah bot yang anggap saya manusia berarti anda tolol. 
+apalu? mau gua tonjok asu?.
+Dibuat khusus untuk memecahkan kepala warga tele yg kek jamet.
+Saya bukan manusia tapi juga bisa sange, gausah kirim pap tt tolol!!
 ━─━─━─━─━─━─━─━─━─━─━
 
-▪**Managed with by:** [Master](https://t.me/Hyoneechan)
-▪**Blog Gabut:** [Blogku](http://pramukapitumpanua.blogspot.com/)
-
+▪**Managed with by:** [KOALA](https://t.me/mixiologist)
+▪**JOIN GRUP:** [Blogu](http://pramukapitumpanua.blogspot.com/)
 ━─━─━─━─━─━─━─━─━─━─━
 Tekan /help untuk melihat daftar fitur saya..
 
