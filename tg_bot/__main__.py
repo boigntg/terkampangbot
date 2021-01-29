@@ -20,14 +20,14 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 
 Hi {}, nama saya {}! 
-Saya adalah bot yang anggap saya manusia berarti anda tolol. 
-apalu? mau gua tonjok asu?.
-Dibuat khusus untuk memecahkan kepala warga tele yg kek jamet.
-Saya bukan manusia tapi juga bisa sange, gausah kirim pap tt tolol!!
+Saya adalah bot yang membantu groupchat craverclaws. 
+kepo ya sama bot ini? sampe diniatin amat mampir kesini.
+Dibuat khusus untuk meramaikan dan menjaga groupchat.
+Saya bukan manusia, jadi gausa diajak mutualan ajg!!
 ━─━─━─━─━─━─━─━─━─━─━
 
-▪**Managed with by:** [KOALA](https://t.me/mixiologist)
-▪**JOIN GRUP:** [LORD USERBOT](http://t.me/LordUserbot_Group)
+▪**Managed with by:** [Mas Boi](https://t.me/boiss69)
+▪**JOIN GRUP:** [𝙘𝙧𝙖𝙫𝙚𝙧𝙘𝙡𝙖𝙬𝙨](http://t.me/craverclaws)
 ━─━─━─━─━─━─━─━─━─━─━
 Tekan /help untuk melihat daftar fitur saya..
 
@@ -151,14 +151,14 @@ def start(bot: Bot, update: Update, args: List[str]):
             first_name = update.effective_user.first_name
             update.effective_message.reply_photo(
                 
-               "https://telegra.ph/file/72c53bccfdac9a6e6d0dd.jpg",
+               "https://telegra.ph/file/c56404c9298ff709aa541.jpg",
                 
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="💡 Add saya ke group", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="🤖 Lord Userbot", url="https://t.me/LordUserbot_Group")],
-                     [InlineKeyboardButton(text="👥 Group chat", url="https://t.me/caritemanhidop"), InlineKeyboardButton(text="🐨 Koala", url="https://t.me/mixiologist")],
-                     [InlineKeyboardButton(text="🌐 Channel Official", url="https://t.me/caritemanhidupofficial"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
+                    [[InlineKeyboardButton(text="💡 Add saya ke group", url="t.me/{}?startgroup=true".format(bot.username))],
+                     [InlineKeyboardButton(text="👥 𝙘𝙧𝙖𝙫𝙚𝙧𝙘𝙡𝙖𝙬𝙨", url="https://t.me/craverclaws"), InlineKeyboardButton(text="Mas Boi", url="https://t.me/boiss69")],
+                     [InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
 
     else:
         update.effective_message.reply_text("Hai ada yang bisa saya bantu...")
